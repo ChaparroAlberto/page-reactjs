@@ -17,22 +17,22 @@ const Services = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="flex flex-col gap-2">
-                    <img src="/public/service1.svg" className="w-12 h-12" alt="service" />
+                    <img src="service1.svg" className="w-12 h-12" alt="service" />
                     <h3 className="text-lg text-main font-bold">UI/UX Design</h3>
                     <p className="text-secondary">Sometimes features require a short description</p>
                 </div>
                 <div className="flex flex-col gap-2">
-                    <img src="/public/service2.svg" className="w-12 h-12" alt="service" />
+                    <img src="service2.svg" className="w-12 h-12" alt="service" />
                     <h3 className="text-lg text-main font-bold">Logo Branding</h3>
                     <p className="text-secondary">Sometimes features require a short description</p>
                 </div>
                 <div className="flex flex-col gap-2">
-                    <img src="/public/service3.svg" className="w-12 h-12" alt="service" />
+                    <img src="service3.svg" className="w-12 h-12" alt="service" />
                     <h3 className="text-lg text-main font-bold">App Design</h3>
                     <p className="text-secondary">Sometimes features require a short description</p>
                 </div>
                 <div className="flex flex-col gap-2">
-                    <img src="/public/service4.svg" className="w-12 h-12" alt="service" />
+                    <img src="service4.svg" className="w-12 h-12" alt="service" />
                     <h3 className="text-lg text-main font-bold">Webiste Design</h3>
                     <p className="text-secondary">Sometimes features require a short description</p>
                 </div>

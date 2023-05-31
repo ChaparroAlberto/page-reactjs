@@ -24,7 +24,7 @@ const Hero = () => {
             <div className='md:col-span-3 flex items-center justify-center relative'>
                 {/* Content Image */}
                 <div>
-                    <img src="/public/hero.png" className='w-[15.625rem] h-[15.625rem] md:w-[30rem] md:h-[30rem] object-cover xl:-mt-28' alt="image" />
+                    <img src="hero.png" className='w-[15.625rem] h-[15.625rem] md:w-[30rem] md:h-[30rem] object-cover xl:-mt-28' alt="image" />
                     <div className='relative bg-white shadow-xl rounded-lg p-[1.3rem] flex flex-col justify-center gap-2 max-w-[250px] mx-auto -mt-12'>
                         <div className='flex items-center'>
                             <img className='w-10 h-10 object-cover rounded-full ring-2 ring-[#E9E8FA]' src="https://img.freepik.com/foto-gratis/empresaria-confiada-sonriente-que-presenta-brazos-cruzados_1262-20950.jpg" alt="person" />
@@ -48,9 +48,9 @@ const Hero = () => {
                 {/* Circle Back */}
                 <div className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[280px] h-[280px] md:w-[26rem] md:h-[26rem] bg-[#EAEAFB] border-[10px] border-primary rounded-full -z-10'></div>
                 {/* Logos */}
-                <img src="/public/figma.png" className='w-10 h-10 md:w-20 md:h-20 object-cover rounded-full border-l-8 border-gray-600 absolute top-[14%] right-[20%] xl:right-[10%] -rotate-12' alt="figma" />
-                <img src="/public/adobe.png" className='w-10 h-10 md:w-20 md:h-20 object-cover rounded-full border-l-8 border-gray-600 absolute top-[10%] xl:top-[17%] left-[20%] xl:left-[10%] -rotate-12' alt="figma" />
-                <img src="/public/sketch.png" className='w-8 h-8 md:w-14 md:h-14 object-contain xl:p-3 p-1 rounded-full border-l-8 border-gray-600 bg-gray-700 absolute top-[10%] xl:top-[7%] left-[10%] xl:-left-[6%] -rotate-12' alt="figma" />
+                <img src="figma.png" className='w-10 h-10 md:w-20 md:h-20 object-cover rounded-full border-l-8 border-gray-600 absolute top-[14%] right-[20%] xl:right-[10%] -rotate-12' alt="figma" />
+                <img src="adobe.png" className='w-10 h-10 md:w-20 md:h-20 object-cover rounded-full border-l-8 border-gray-600 absolute top-[10%] xl:top-[17%] left-[20%] xl:left-[10%] -rotate-12' alt="figma" />
+                <img src="sketch.png" className='w-8 h-8 md:w-14 md:h-14 object-contain xl:p-3 p-1 rounded-full border-l-8 border-gray-600 bg-gray-700 absolute top-[10%] xl:top-[7%] left-[10%] xl:-left-[6%] -rotate-12' alt="figma" />
             </div>
         </section>
     )
